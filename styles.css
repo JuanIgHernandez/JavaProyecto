@@ -1,0 +1,72 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: blueviolet;
+}
+h2{
+    color: darkblue;
+    font-size: 50px;
+}
+h3{
+    color: green;
+    font-size: 50px;
+}
+ul{
+    color: darkorchid;
+}
+div{
+    color: red;
+}
+#btnStock{
+    background-color: blueviolet;
+    color: pink;
+    width: 100px;
+    height: 50px;
+    border-color: black;
+}
+.styledBtn{
+    width: 200px;
+    height: 50px;
+    background-color: violet;
+    color: white;
+}
+.TituloCarrito{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+#seccionCarrito{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carritoNombre{
+    color: black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.carritoPrecio{
+    color: black;
+    font-size: 30px;
+}
+#borrarBtn{
+    background-color: red;
+}
+#pagoBtn{
+    background-color: pink;
+    margin-left: 520px;
+    padding: 20px;
+}
+#total{
+    color: darkblue;
+    font-size: 30px;
+    padding-left: 590px;
+}
+#carrito{
+    background-color: aqua;
+    width: 600px;
+    margin-left: 350px;
+    border: 5px;
+    border-radius: 20px;
+}
