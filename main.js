@@ -41,9 +41,9 @@ let color = localStorage.getItem("mode");
     })
 
 // carga de datos con fetch
-const url = "./data/productos.json"
 
-    fetch(url)
+
+    fetch("./data/productos.json")
     .then((result)=>result.json())
     .then((data)=>{
         mostrarDatos(data)
